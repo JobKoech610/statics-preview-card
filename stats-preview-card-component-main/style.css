@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: (233, 47%, 7%);
+    font-size: 15px;
+}
+
+
+
+.main{
+    margin: 100px auto;
+    height: 400px;
+    width: 900px;
+    background-color: hsl(233, 47%, 7%);
+   
+}
+
+
+.card{
+    margin: 30px 50px;
+    height: 300px;
+    width: 800px;
+    background-color:  hsl(244, 38%, 16%);
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+}
+
+.content{
+    width: fit-content;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.heading{
+    padding: 30px 5px 15px;
+    width: fit-content;
+    color: hsl(0, 0%, 100%);
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.header-info,p{
+    width: fit-content;
+}
+
+img{
+    position: absolute;
+    left: 400px;
+    height: 300px;
+    width: 400px;
+    bottom: 0;
+    mix-blend-mode: hard-light;
+    background-color: #d2b3e7ad;
+    border-radius: 0 2% 2% 0;
+}
+
+.header,.header-info,.review{
+    text-align: left;
+}
+
+.header-info>p{
+    width: 300px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+.review{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  
+}
+
+.statics{
+    text-align: center;
+    margin-bottom: -10px;
+  }
+
+ 
+.statics>p{
+    color: hsla(0, 0%, 100%, 0.6);
+}  
+
+.statics>h1{
+    color: hsl(0, 0%, 100%);
+}  
+
+
+
+.review>h2{
+    width: fit-content;
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    .main{
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 400px;
+        height: 900px;
+        
+        
+        
+    }
+
+    .card{
+        margin: 30px 20px 0;
+        height: 520px;
+        width: 350px;
+        background-color:  hsl(244, 38%, 16%);
+        position: absolute;
+        /* top: 50px; */
+        top: 300px;
+        border-radius: 0% 0% 2% 2%;
+       
+    }
+
+    img{
+        position: absolute;
+        margin: 0;
+        left: 0px;
+        height:250px;
+        width: 350px;
+        bottom: 520px;
+        border-radius: 2% 2% 0 0;
+        /* mix-blend-mode: hard-light; */
+        /* background-color: #d2b3e7ad; */
+       
+    }
+
+    .review{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+      
+    }
+    
+   
+    .heading,.header-info,p{
+        text-align: center;
+        width: auto;
+    }  
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
